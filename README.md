@@ -23,7 +23,7 @@ java -jar target/bootique-logback-demo-1.0-SNAPSHOT.jar -m --config=classpath:bo
 List of the prefixes to lounch different commands:
 
 ```
--m - runa main Commnad with all other commands (Debug, Error, Info, Trace, Warn)
+-m - run a main Commnad with all other commands (Debug, Error, Info, Trace, Warn)
 -d - run only DebugCommand. You will see logs under the DEBUG level such as: debug, info, warn and error
 -e - run only ErrorCommand. You will see logs under the ERROR only error
 -i - run only InfoCommand. You will see logs under the INFO level such as: info, warn and error
